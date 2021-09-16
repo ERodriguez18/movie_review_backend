@@ -10,9 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 2021_09_15_195008) do
-=======
 ActiveRecord::Schema.define(version: 2021_09_15_002344) do
 >>>>>>> a791c5dcc86ecc0dfd2880fb6ebc264440ff1c25
 
