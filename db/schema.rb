@@ -27,7 +27,6 @@ ActiveRecord::Schema.define(version: 2021_09_15_002344) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-<<<<<<< HEAD
   create_table "reviews", force: :cascade do |t|
     t.integer "rating"
     t.text "comment"
@@ -37,6 +36,4 @@ ActiveRecord::Schema.define(version: 2021_09_15_002344) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-=======
->>>>>>> a791c5dcc86ecc0dfd2880fb6ebc264440ff1c25
 end
