@@ -35,4 +35,6 @@ gem 'omniauth', '~> 2.0', '>= 2.0.4'
 
 gem 'omniauth-github', '~> 2.0'
 
+gem 'devise-jwt', '~> 0.8.1'
+
 
