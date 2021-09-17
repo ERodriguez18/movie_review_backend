@@ -1,13 +1,17 @@
 Rails.application.routes.draw do
 
-  devise_for :users, :controllers => {:registrations => "registration"}
-  #change the route from /users/login to login route
-  devise_scope :user do
-    get 'login', to: 'devise/sessions#new'
-  end
-  devise_scope :user do
-    get 'signup', to: 'devise/registrations#new'
-  end
+  devise_for :users, :users,
+  path: '',
+  path_names: {
+    sign_in: 'login',
+    sign_out: 'logout',
+    registration: 'signup'
+  },
+  controllers: {
+    sessions: 'sessions',
+    registrations: 'registrations'
+  }
+end
 
   resources :reviews
 
